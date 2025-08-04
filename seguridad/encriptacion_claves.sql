@@ -56,7 +56,7 @@ ALTER TABLE users DROP CONSTRAINT users_user_firebase_key;
 -- 2. Eliminar columna
 ALTER TABLE users DROP COLUMN user_firebase;
 
--- 3. Renombrar columna cifrada (opcional)
+-- 3. Renombrar columna cifrada 
 ALTER TABLE users RENAME COLUMN user_firebase_cifrado TO user_firebase;
 
 -- Columna del IV (Initialization Vector) se elimin ya que no se esta usando cifrado maunual si no automático
