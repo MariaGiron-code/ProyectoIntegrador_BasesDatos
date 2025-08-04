@@ -22,8 +22,8 @@ EPNprendeDB es un sistema orientado a la **seguridad de bases de datos PostgreSQ
 - 🧱 **Protección contra amenazas**  
   Medidas integradas contra **SQL Injection** y validación estricta de entradas.
 
-- 📋 **Auditoría completa**  
-  Registro detallado de cambios, accesos y eventos para trazabilidad.
+- 📋 **Auditoría **  
+  Registro detallado de cambios, accesos y eventos.
 
 - 💾 **Sistema de respaldo**  
   Soporta backups en **caliente** (sin detener el sistema) y en **frío**, con restauración total o parcial.
@@ -32,7 +32,7 @@ EPNprendeDB es un sistema orientado a la **seguridad de bases de datos PostgreSQ
 
 ## 🗂️ Estructura de la Base de Datos
 
-Organizada en **tres esquemas**:
+Organizada en ** esquemas**:
 
 - **`operaciones`**: Usuarios, productos, transacciones, etc.  
 - **`auditoria`**: Logs de accesos, cambios, intentos de intrusión.  
@@ -61,7 +61,6 @@ Organizada en **tres esquemas**:
 ## Respaldo y Recuperación
 
 - ✅ **Backup en caliente**: Copia de seguridad sin interrumpir el sistema.  
-- 🛑 **Backup en frío**: Sistema detenido para asegurar coherencia total.  
 - 🔁 **Recuperación parcial** o total desde cualquier backup.
 
 ---
@@ -100,13 +99,8 @@ Sistema conectado a **Neon Wireless**, plataforma serverless para PostgreSQL.
 A través de **Neon Console**:
 
 - Métricas de CPU / Memoria
-- Detección de accesos no autorizados
 - Análisis del rendimiento de consultas
 
-### 📁 Políticas de Retención
-
-- **Backups**: Conservados 30 días en Neon Storage  
----
 
 ## ⚠️ Limitaciones Conocidas
 
